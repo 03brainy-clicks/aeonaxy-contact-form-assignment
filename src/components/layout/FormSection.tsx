@@ -1,4 +1,4 @@
-import { ArrowRightIcon } from "@heroicons/react/24/outline";
+import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import ContactForm from "../forms/ContactForm";
 
 const FormSection = () => {
@@ -24,8 +24,12 @@ const FormSection = () => {
                 {" "}
                 Need help with existing account?
               </h3>
-              <p className="mt-2 text-paypal-secondaryBlue font-medium flex gap-2">
-                Visit out help center <ArrowRightIcon className="w-5"/>
+              <p className="mt-2 text-paypal-secondaryBlue font-medium flex items-center">
+                Visit out help center{" "}
+                <div className="flex items-center relative">
+                <ArrowLongRightIcon className="w-7 relative z-10 text-paypal-arrow" />
+                  <div className="w-5 h-5 rounded-full bg-paypal-bubble relative right-4"></div>
+                </div>
               </p>
             </div>
             <div className="">
@@ -33,8 +37,12 @@ const FormSection = () => {
                 {" "}
                 Want helpfull buisness insights?
               </h3>
-              <p className="mt-2 text-paypal-secondaryBlue font-medium flex gap-2">
-                Visit our Buisness Resource Center <ArrowRightIcon className="w-5"/>
+              <p className="mt-2 text-paypal-secondaryBlue font-medium flex items-center">
+                Visit our Buisness Resource Center{" "}
+                <div className="flex items-center relative">
+                  <ArrowLongRightIcon className="w-7 relative z-10 text-paypal-arrow" />
+                  <div className="w-5 h-5 rounded-full bg-paypal-bubble relative right-4"></div>
+                </div>
               </p>
             </div>
           </div>

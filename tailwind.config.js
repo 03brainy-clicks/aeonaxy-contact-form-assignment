@@ -9,7 +9,9 @@ export default {
       colors:{
         paypal :{
           primaryBlue:"#022069",
-          secondaryBlue:"#066FB3"
+          secondaryBlue:"#066FB3",
+          bubble:"#E3F1FA",
+          arrow:"#0C6BA5"
         }
       }
     },
