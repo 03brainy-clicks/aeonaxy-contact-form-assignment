@@ -27,7 +27,7 @@ const FormSection = () => {
               <p className="mt-2 text-paypal-secondaryBlue font-medium flex items-center">
                 Visit out help center{" "}
                 <div className="flex items-center relative">
-                <ArrowLongRightIcon className="w-7 relative z-10 text-paypal-arrow" />
+                <ArrowLongRightIcon className="w-6 relative z-10 text-paypal-arrow" />
                   <div className="w-5 h-5 rounded-full bg-paypal-bubble relative right-4"></div>
                 </div>
               </p>
@@ -40,7 +40,7 @@ const FormSection = () => {
               <p className="mt-2 text-paypal-secondaryBlue font-medium flex items-center">
                 Visit our Buisness Resource Center{" "}
                 <div className="flex items-center relative">
-                  <ArrowLongRightIcon className="w-7 relative z-10 text-paypal-arrow" />
+                  <ArrowLongRightIcon className="w-6 relative z-10 text-paypal-arrow" />
                   <div className="w-5 h-5 rounded-full bg-paypal-bubble relative right-4"></div>
                 </div>
               </p>

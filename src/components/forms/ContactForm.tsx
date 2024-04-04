@@ -102,7 +102,7 @@ const ContactForm = () => {
             Submit
           </button>
         </div>
-        <div className="text-center text-xs font-medium">*Required fields.</div>
+        <div className="text-center text-xs">*Required fields.</div>
       </form>
     </div>
   );
