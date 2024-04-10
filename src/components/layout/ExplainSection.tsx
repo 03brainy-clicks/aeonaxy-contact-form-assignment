@@ -7,17 +7,17 @@ const ExplainSection = () => {
         </h1>
         <div className="flex justify-between mt-5">
           <div className="text-xs font-semibold space-y-4">
-            <div>Introduction</div>
-            <div>Get Started</div>
+            <div className="cursor-pointer">Introduction</div>
+            <div className="cursor-pointer">Get Started</div>
           </div>
           <div>
             <div className="text-xs font-semibold">All Solutions</div>
             <div className="text-xs mt-4 space-y-2">
-              <div>Accept Payments</div>
-              <div>Make Payments</div>
-              <div>Manage Risk</div>
-              <div>Accelerate Growth</div>
-              <div>Streamline Operations</div>
+              <div className="cursor-pointer">Accept Payments</div>
+              <div className="cursor-pointer">Make Payments</div>
+              <div className="cursor-pointer">Manage Risk</div>
+              <div className="cursor-pointer">Accelerate Growth</div>
+              <div className="cursor-pointer">Streamline Operations</div>
             </div>
           </div>
         </div>
@@ -28,17 +28,17 @@ const ExplainSection = () => {
         </h1>
         <div className="flex justify-between mt-5">
           <div className="text-xs font-semibold space-y-4">
-            <div>Introduction</div>
-            <div>Marketplace & Partners</div>
+            <div className="cursor-pointer">Introduction</div>
+            <div className="cursor-pointer">Marketplace & Partners</div>
           </div>
           <div>
             <div className="text-xs font-semibold">Platform & Solutions</div>
             <div className="text-xs mt-4 space-y-2">
-              <div>Accept Payments</div>
-              <div>Make Payments</div>
-              <div>Manage Risk</div>
-              <div>Accelerate Growth</div>
-              <div>Streamline Operations</div>
+              <div className="cursor-pointer">Accept Payments</div>
+              <div className="cursor-pointer">Make Payments</div>
+              <div className="cursor-pointer">Manage Risk</div>
+              <div className="cursor-pointer">Accelerate Growth</div>
+              <div className="cursor-pointer">Streamline Operations</div>
             </div>
           </div>
         </div>
@@ -49,9 +49,9 @@ const ExplainSection = () => {
         </h1>
         <div className="flex justify-between mt-5">
           <div className="text-xs font-semibold space-y-4">
-            <div>Non-Profits</div>
-            <div>Pricing</div>
-            <div>Resource Center</div>
+            <div className="cursor-pointer">Non-Profits</div>
+            <div className="cursor-pointer">Pricing</div>
+            <div className="cursor-pointer">Resource Center</div>
           </div>
         </div>
       </div>
