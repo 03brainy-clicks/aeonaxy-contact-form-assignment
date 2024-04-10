@@ -3,9 +3,9 @@ import ContactForm from "../forms/ContactForm";
 
 const FormSection = () => {
   return (
-    <div className="xl:w-9/12 lg:w-10/12 sm:w-11/12 px-5 lg:px-0 mx-auto flex flex-col md:flex-row">
-      <div className="lg:py-24 sm:pt-24 pt-12 flex-1">
-        <div className="xl:w-2/3 lg:w-1/2 md:w-3/4 w-full ">
+    <div className="xl:w-9/12 lg:w-10/12 sm:w-11/12 px-5 lg:px-0 mx-auto flex flex-col lg:flex-row">
+      <div className="lg:py-24 pt-12 flex-1">
+        <div className="xl:w-2/3 lg:w-3/4 md:w-4/5 w-full ">
           <h1 className="text-2xl font-medium">
             Some other ways to <br /> connect with us
           </h1>
@@ -48,7 +48,7 @@ const FormSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex-1 relative mt-10 sm:mb-24 mb-12 md:mt-0 md:mb-0">
+      <div className="flex-1 relative mt-10  mb-12 lg:mt-0 lg:mb-0">
         <ContactForm />
       </div>
     </div>

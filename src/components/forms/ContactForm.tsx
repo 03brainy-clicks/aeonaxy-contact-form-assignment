@@ -24,7 +24,7 @@ const ContactForm = () => {
   });
 
   return (
-    <div className=" bg-white rounded-lg lg:w-[32rem] md:w-[28rem] lg:ml-auto mx-auto px-7 py-12 border md:relative md:-top-40  shadow-sm md:right-0">
+    <div className=" bg-white rounded-lg lg:w-[32rem] md:w-[44rem] lg:ml-auto mx-auto px-7 py-12 border lg:relative lg:-top-40  shadow-sm lg:right-0">
       <h1 className="text-2xl font-medium">Get Started</h1>
       <p className="text-sm mt-1 font-medium">
         Tell us a little about your buisness so we can connect you with the

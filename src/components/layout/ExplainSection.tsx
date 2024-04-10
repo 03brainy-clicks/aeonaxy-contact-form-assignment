@@ -1,6 +1,6 @@
 const ExplainSection = () => {
   return (
-    <div className="md:gap-10 gap-5 xl:w-9/12 lg:w-10/12 sm:w-11/12 px-5 lg:px-0 mx-auto flex flex-wrap md:flex-row flex-col sm:mb-24 mb-12">
+    <div className="md:gap-10 gap-5 xl:w-9/12 lg:w-10/12 sm:w-11/12 px-5 lg:px-0 mx-auto flex flex-wrap md:flex-row flex-col lg:mb-24 mb-12">
       <div className="flex-1">
         <h1 className="text-sm text-paypal-primaryBlue font-semibold border-b pb-1">
           Small-to-Medium Buisness
